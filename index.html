@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Calculator</title>
+    <style>
+
+    </style>
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="icon" href="img/iconfinder_51_111141.png">
+</head>
+
+<body>
+
+    <p><a href="https://www.desmos.com/scientific" target="_blank">參考網路上面的計算機</a></p>
+
+
+
+
+    <table>
+        <tr>
+            <th colspan="4">
+                <!-- <p id="show"> </p> -->
+                <input id="shownum" type="text" disabled>
+
+            </th>
+        </tr>
+
+        <tr>
+            <th colspan="4">
+                <!-- <p id="show"> </p> -->
+                <input id="show" type="text" disabled>
+
+            </th>
+        </tr>
+
+        <tr>
+            <td><button onclick="showNum('7')">7</button> </td>
+            <td><button onclick="showNum('8')">8</button> </td>
+            <td><button onclick="showNum('9')">9</button> </td>
+            <td><button onclick="operator('/')" class="sign">/</button> </td>
+        </tr>
+        <tr>
+            <td><button onclick="showNum('4')">4</button> </td>
+            <td><button onclick="showNum('5')">5</button> </td>
+            <td><button onclick="showNum('6')">6</button> </td>
+            <td><button onclick="operator('x')" class="sign">x</button> </td>
+        </tr>
+        <tr>
+            <td><button onclick="showNum('1')">1</button> </td>
+            <td><button onclick="showNum('2')">2</button> </td>
+            <td><button onclick="showNum('3')">3</button> </td>
+            <td><button onclick="operator('-')" class="sign">-</button> </td>
+        </tr>
+        <tr>
+            <td><button onclick="showNum('0')">0</button></td>
+            <td><button onclick="clean()">C</button> </td>
+            <td><button onclick="answer()" class="equal">=</button></td>
+            <td><button onclick="operator('+')" class="sign">+</button></td>
+        </tr>
+
+        <script src="Javascript/index.js"></script>
+
+
+
+    </table>
+</body>
+
+</html>

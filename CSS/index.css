@@ -1,0 +1,49 @@
+table {
+    margin:auto;
+    width: 100px;
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+input {
+    text-align: right;
+    height: 90px;
+    padding: 20px 20px;
+    width: 100%;
+    margin: 0;
+    font-size: 150%;
+    background-color: white;
+    border:none;
+    box-sizing: border-box;
+    
+}
+
+tr,
+td {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 0px;
+}
+
+
+
+button {
+    width: 100px;
+    height: 100px;
+    border: none;
+    background-color: white;
+    font-size: 150%;
+    
+}
+
+button:hover {
+    background-color: silver;
+}
+
+.equal {
+    background-color: orange;
+}
+
+.sign {
+    background-color: rgb(243, 240, 240);
+}
